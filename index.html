@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
+     <script type='text/javascript'>
+ document.onmousedown = function() {window.focus();};
+ </script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/SlippyMagikarpBuild.json", {onProgress: UnityProgress});
     </script>
